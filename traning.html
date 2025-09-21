@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Live Training Access</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Roboto, Georgia, "Times New Roman", serif;
+      background: linear-gradient(135deg, #ffffff, #f1f3f5);
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+      color: #212529;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-size: clamp(26px, 4vw, 38px);
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    h1 span {
+      color: #e53935;
+    }
+
+    .highlight {
+      color: #e53935;
+      font-weight: bold;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+      margin: 15px 0;
+    }
+
+    .btn-join {
+      display: inline-block;
+      padding: 16px 30px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #fff;
+      background-color: #28a745;
+      border: none;
+      border-radius: 6px;
+      text-decoration: none;
+      cursor: pointer;
+      margin-top: 30px;
+      transition: background 0.3s ease;
+    }
+
+    .btn-join:hover {
+      background-color: #218838;
+    }
+
+    .note {
+      font-size: 16px;
+      margin-top: 25px;
+      color: #495057;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to Your <span>Live Training</span></h1>
+    <p>This training is reserved for just a few slots. <span class="highlight">Don’t miss out!</span></p>
+    <p>You’ll be redirected to our WhatsApp group shortly…</p>
+
+    <a href="https://chat.whatsapp.com/H51uUTRwbHP4AVGqXpoHj1?mode=ems_copy_t" class="btn-join">
+      📲 JOIN THE SESSION NOW
+    </a>
+
+    <p class="note">If you are not redirected automatically, click the button above.</p>
+  </div>
+
+  <script>
+    // Redirect after 5 seconds
+    setTimeout(function() {
+      window.location.href = "https://chat.whatsapp.com/H51uUTRwbHP4AVGqXpoHj1?mode=ems_copy_t";
+    }, 5000);
+  </script>
+</body>
+</html>
